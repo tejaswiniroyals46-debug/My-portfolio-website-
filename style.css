@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+/* Hero */
+.hero {
+    padding: 40px;
+}
+
+.profile {
+    width: 140px;
+    border-radius: 50%;
+    border: 3px solid cyan;
+}
+
+/* Typing text */
+.typing {
+    color: cyan;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Sections */
+section {
+    margin-top: 40px;
+}
+
+/* Skills */
+.skills span {
+    display: inline-block;
+    background: #111;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 1px solid cyan;
+}
+
+/* Cards */
+.card {
+    background: #111;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px cyan;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
